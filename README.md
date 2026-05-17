@@ -1,80 +1,82 @@
-Smart university app
-A full-stack, smart university management application designed to streamline campus life for students. Built with a Flutter frontend and a Node.js/MySQL backend, it provides a centralized platform for academic tracking, campus services, and intelligent AI assistance.
+# DevNexus AI: Smart University App 🎓
 
-✨ Features
-📊 Attendance Tracking: Monitor overall attendance percentages and view subject-wise breakdowns with color-coded progress indicators.
+[cite_start]The Smart University App is a full-stack mobile application developed using Flutter, Node.js, and MySQL to digitally manage university-related services[cite: 12]. [cite_start]It provides a centralized digital platform for university students[cite: 17]. 
 
-📅 Timetable Management: Access your daily class schedule, complete with professor details, timings, and room locations.
+## ✨ Features
 
-✏️ Assignment Dashboard: Track academic tasks with filtering options for pending, submitted, and overdue assignments.
+* [cite_start]**📊 Attendance Tracking:** Allows students to view attendance records and track percentages[cite: 18].
+* [cite_start]**📅 Timetable Management:** Displays the class timetable and upcoming schedules[cite: 19].
+* [cite_start]**✏️ Assignment Dashboard:** Shows assignments along with their due dates and current status[cite: 20].
+* [cite_start]**🎉 Campus Events:** Provides updates on university events and important announcements[cite: 21].
+* [cite_start]**🍽️ Cafeteria Menu & Ordering:** Includes a cafeteria module for viewing menu items and placing orders[cite: 22].
+* [cite_start]**🤖 AI Chatbot:** Features an AI chatbot designed to answer software-development-related questions[cite: 23].
+* [cite_start]**📚 Learning Resources:** Supports images, GIFs, and downloadable PDF or Word learning resources[cite: 24].
 
-🎉 Campus Events: Browse upcoming university events, check attendee counts, and register seamlessly.
+## 🛠️ Technology Stack
 
-🍽️ Cafeteria Menu & Ordering: View daily menus, check prices and ratings, and place food orders directly through the app.
+* [cite_start]**Frontend:** Developed using Flutter[cite: 16].
+* [cite_start]**Backend:** Developed using Node.js[cite: 16].
+* [cite_start]**Database:** Developed using MySQL[cite: 16].
+* [cite_start]**API:** Uses REST APIs to connect the Flutter app with the backend and database[cite: 25].
 
-📢 Announcements: Stay updated with official university news, categorized by department and priority levels.
+---
 
-🤖 AI Chatbot: Get instant answers regarding your schedule, attendance, assignments, and general university queries.
+## 📸 App Screenshots
 
-🛠️ Technology Stack
-Frontend: Flutter, Dart, Material Design 3
+Below is a visual overview of the application and the backend environment:
 
-Backend: Node.js, Express.js
+### Backend & Database Environment
+* [cite_start]**Mysql database Xampp:** [cite: 26]
+  ![Mysql database Xampp](assets/screenshots/mysql_xampp.png)
+* [cite_start]**Node js server running:** [cite: 27]
+  ![Node js server running](assets/screenshots/node_server.png)
 
-Database: MySQL (via XAMPP)
+### Flutter Application Interfaces
+* [cite_start]**Welcome screen:** [cite: 28]
+  ![Welcome screen](assets/screenshots/welcome_screen.png)
+* [cite_start]**Complete dashboard:** [cite: 29]
+  ![Complete dashboard](assets/screenshots/dashboard.png)
+* [cite_start]**Announcements:** [cite: 30]
+  ![Announcements](assets/screenshots/announcements.png)
+* [cite_start]**Assignments:** [cite: 31]
+  ![Assignments](assets/screenshots/assignments.png)
+* [cite_start]**Attendance:** [cite: 32]
+  ![Attendance](assets/screenshots/attendance.png)
+* [cite_start]**Cafetaria:** [cite: 33]
+  ![Cafetaria](assets/screenshots/cafeteria.png)
+* [cite_start]**Events:** [cite: 34]
+  ![Events](assets/screenshots/events.png)
+* [cite_start]**Timetable:** [cite: 35]
+  ![Timetable](assets/screenshots/timetable.png)
+* [cite_start]**AI Chat-bot:** [cite: 36]
+  ![AI Chat-bot](assets/screenshots/ai_chatbot_1.png)
+  ![AI Chat-bot](assets/screenshots/ai_chatbot_2.png)
 
-🚀 Getting Started
+---
+
+## 🚀 Getting Started
+
 Follow these steps to run the application on your local machine.
 
-Prerequisites
-Flutter SDK installed
+### 1. Database Setup
+1. Start **Apache** and **MySQL** from your XAMPP Control Panel.
+2. Open phpMyAdmin (`http://localhost/phpmyadmin`).
+3. Import the `backend/setup.sql` file to create the database and populate it with sample data.
 
-Node.js installed
-
-XAMPP installed (for Apache & MySQL)
-
-1. Database Setup
-Open the XAMPP Control Panel and start Apache and MySQL.
-
-Navigate to http://localhost/phpmyadmin in your web browser.
-
-Import the backend/setup.sql file to create the smart_university_db database and populate it with sample data.
-
-2. Backend Setup
-Open a terminal and navigate to the backend directory:
-
-Bash
+### 2. Backend Setup
+Open a terminal and navigate to the backend directory to start the server:
+```bash
 cd backend
-Install the required Node.js dependencies:
-
-Bash
 npm install
-Ensure your .env file in the backend folder contains the following:
-
-Code snippet
-PORT=3000
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=
-DB_NAME=smart_university_db
-Start the development server:
-
-Bash
 npm run dev
 (The API will be running on http://localhost:3000)
 
 3. Frontend Setup
-Open a new terminal and navigate to the frontend directory:
+Open a new terminal and run the Flutter app:
 
 Bash
 cd frontend
-Install the Flutter dependencies:
-
-Bash
 flutter pub get
-Run the application (ensure you have an emulator running or choose a web browser):
-
-Bash
 flutter run -d chrome
 👨‍💻 Author
 Ahmed Hassan (@Ahmed-hs-2005)

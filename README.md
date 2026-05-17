@@ -1,23 +1,23 @@
-# DevNexus AI: Smart University App 🎓
+# Smart University App 🎓
 
-[cite_start]The Smart University App is a full-stack mobile application developed using Flutter, Node.js, and MySQL to digitally manage university-related services[cite: 12]. [cite_start]It provides a centralized digital platform for university students[cite: 17]. 
+The Smart University App is a full-stack mobile application developed using Flutter, Node.js, and MySQL to digitally manage university-related services. It provides a centralized digital platform for university students. 
 
 ## ✨ Features
 
-* [cite_start]**📊 Attendance Tracking:** Allows students to view attendance records and track percentages[cite: 18].
-* [cite_start]**📅 Timetable Management:** Displays the class timetable and upcoming schedules[cite: 19].
-* [cite_start]**✏️ Assignment Dashboard:** Shows assignments along with their due dates and current status[cite: 20].
-* [cite_start]**🎉 Campus Events:** Provides updates on university events and important announcements[cite: 21].
-* [cite_start]**🍽️ Cafeteria Menu & Ordering:** Includes a cafeteria module for viewing menu items and placing orders[cite: 22].
-* [cite_start]**🤖 AI Chatbot:** Features an AI chatbot designed to answer software-development-related questions[cite: 23].
-* [cite_start]**📚 Learning Resources:** Supports images, GIFs, and downloadable PDF or Word learning resources[cite: 24].
+* **📊 Attendance Tracking:** Allows students to view attendance records and track percentages.
+* **📅 Timetable Management:** Displays the class timetable and upcoming schedules.
+* **✏️ Assignment Dashboard:** Shows assignments along with their due dates and current status.
+* **🎉 Campus Events:** Provides updates on university events and important announcements.
+* **🍽️ Cafeteria Menu & Ordering:** Includes a cafeteria module for viewing menu items and placing orders.
+* **🤖 AI Chatbot:** Features an AI chatbot designed to answer software-development-related questions.
+* **📚 Learning Resources:** Supports images, GIFs, and downloadable PDF or Word learning resources.
 
 ## 🛠️ Technology Stack
 
-* [cite_start]**Frontend:** Developed using Flutter[cite: 16].
-* [cite_start]**Backend:** Developed using Node.js[cite: 16].
-* [cite_start]**Database:** Developed using MySQL[cite: 16].
-* [cite_start]**API:** Uses REST APIs to connect the Flutter app with the backend and database[cite: 25].
+* **Frontend:** Developed using Flutter.
+* **Backend:** Developed using Node.js.
+* **Database:** Developed using MySQL.
+* **API:** Uses REST APIs to connect the Flutter app with the backend and database.
 
 ---
 
@@ -26,29 +26,29 @@
 Below is a visual overview of the application and the backend environment:
 
 ### Backend & Database Environment
-* [cite_start]**Mysql database Xampp:** [cite: 26]
+* **Mysql database Xampp:**
   ![Mysql database Xampp](assets/screenshots/mysql_xampp.png)
-* [cite_start]**Node js server running:** [cite: 27]
+* **Node js server running:**
   ![Node js server running](assets/screenshots/node_server.png)
 
 ### Flutter Application Interfaces
-* [cite_start]**Welcome screen:** [cite: 28]
+* **Welcome screen:**
   ![Welcome screen](assets/screenshots/welcome_screen.png)
-* [cite_start]**Complete dashboard:** [cite: 29]
+* **Complete dashboard:**
   ![Complete dashboard](assets/screenshots/dashboard.png)
-* [cite_start]**Announcements:** [cite: 30]
+* **Announcements:**
   ![Announcements](assets/screenshots/announcements.png)
-* [cite_start]**Assignments:** [cite: 31]
+* **Assignments:**
   ![Assignments](assets/screenshots/assignments.png)
-* [cite_start]**Attendance:** [cite: 32]
+* **Attendance:**
   ![Attendance](assets/screenshots/attendance.png)
-* [cite_start]**Cafetaria:** [cite: 33]
+* **Cafetaria:**
   ![Cafetaria](assets/screenshots/cafeteria.png)
-* [cite_start]**Events:** [cite: 34]
+* **Events:**
   ![Events](assets/screenshots/events.png)
-* [cite_start]**Timetable:** [cite: 35]
+* **Timetable:**
   ![Timetable](assets/screenshots/timetable.png)
-* [cite_start]**AI Chat-bot:** [cite: 36]
+* **AI Chat-bot:**
   ![AI Chat-bot](assets/screenshots/ai_chatbot_1.png)
   ![AI Chat-bot](assets/screenshots/ai_chatbot_2.png)
 

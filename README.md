@@ -27,9 +27,9 @@ Below is a visual overview of the application and the backend environment:
 
 ### Backend & Database Environment
 * **Mysql database Xampp:**
-  ![Mysql database Xampp](assets/screenshots/mysql_xampp.png)
+  ![Mysql database Xampp](mysql_xampp.png)
 * **Node js server running:**
-  ![Node js server running](assets/screenshots/node_server.png)
+  ![Node js server running](node_server.png)
 
 ### Flutter Application Interfaces
 * **Welcome screen:**
